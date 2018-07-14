@@ -2,10 +2,10 @@
 #define MY_GMM_BACKGROUND_H
 
 #include<stdio.h>  
-#include<cv.h>  
-#include<cxcore.h>  
-#include<highgui.h>  
-#include<cvaux.h>  
+#include<opencv/cv.h>  
+#include<opencv/cxcore.h>  
+#include<opencv/highgui.h>  
+#include<opencv/cvaux.h>  
 
 typedef struct MyCvGaussBGValues  
 {  

@@ -1,9 +1,9 @@
-#include "stdlib.h"
+#include <stdlib.h>
 #include <stdio.h>
-#include <cv.h>
-#include <cxcore.h>
-#include <highgui.h>
-#include <cvaux.h>//必须引此头文件
+#include <opencv/cv.h>
+#include <opencv/cxcore.h>
+#include <opencv/highgui.h>
+#include <opencv/cvaux.h>
 #include <iostream>
 #include <fstream>
 #include "SwaveletFilter.h"

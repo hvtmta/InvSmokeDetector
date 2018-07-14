@@ -3,10 +3,10 @@
 
 #include "stdlib.h"
 #include <stdio.h>
-#include <cv.h>
-#include <cxcore.h>
-#include <highgui.h>
-#include <cvaux.h>//必须引此头文件
+#include <opencv/cv.h>
+#include <opencv/cxcore.h>
+#include <opencv/highgui.h>
+#include <opencv/cvaux.h>
 #include <iostream>
 #include <math.h>
 #include "constants.h"
@@ -23,7 +23,7 @@ public:
 	CvMat *pSwaveletMat;
 	CvMat *pEnergyImg;
 
-	//为了方便参数访问，一下变量均为主类InvFireDetector内参量
+	//In order to facilitate parameter access, the following variables are the main parameters of the InvFireDetector.
 	int blockRowNum,blockColumnNum;
   int *blockMark;
   CvRect* blockSeq;
